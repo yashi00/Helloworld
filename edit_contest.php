@@ -1,5 +1,6 @@
 <?php
 session_start();
+# sorry that i made a change
 include("Assets/php/dbconfig.php");
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
